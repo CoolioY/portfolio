@@ -1,265 +1,247 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.77">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 12.0px 'Lucida Grande'; font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coolio Yang - Global Strategic Marketing Advisor. Former Ogilvy VP & Kantar CEO. Expert in China market entry and Co-investment models.">
+    <title>Coolio Yang | Global Strategic Advisor & Investor</title>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Coolio Yang",
+      "jobTitle": "Strategic Marketing Advisor",
+      "url": "https://www.linkedin.com/in/coolioyang",
+      "sameAs": ["https://www.linkedin.com/in/coolioyang"],
+      "description": "Former Ogilvy VP and Kantar CEO. Global expert in strategic marketing, operations, and revenue-share models.",
+      "affiliation": { "@type": "Organization", "name": "CY&C Advisory" },
+      "knowsAbout": ["China Market Entry", "Marketing Operations", "KOL Marketing", "Ad Censorship", "E-commerce Strategy"],
+      "knowsLanguage": ["English", "Mandarin", "Cantonese"]
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root { --bg: #ffffff; --text: #000000; --accent: #800020; --border: #eeeeee; --soft-bg: #fcfcfc; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        .container { max-width: 1050px; margin: 0 auto; padding: 0 40px; }
+        
+        /* Typography */
+        h1 { font-size: 4.5rem; font-weight: 800; letter-spacing: -3px; line-height: 1; margin-bottom: 25px; }
+        h2 { font-size: 2.5rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 40px; }
+        h3 { font-size: 1.6rem; font-weight: 700; margin-bottom: 15px; }
+        .label { color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 15px; display: block; }
+
+        /* Hero & Bio Grid */
+        header { padding: 100px 0 60px; border-bottom: 1px solid var(--border); }
+        .hero-grid { display: grid; grid-template-columns: 1fr 1.8fr; gap: 70px; align-items: start; }
+        .profile-img { width: 100%; border-radius: 2px; }
+        .bio-lead { font-size: 1.3rem; font-weight: 300; margin-bottom: 35px; color: #333; }
+        
+        .resume-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
+        .exp-block { margin-bottom: 30px; }
+        .exp-block span { font-size: 0.8rem; color: var(--accent); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 8px; }
+        .exp-block h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: 5px; }
+        .exp-block p { font-size: 0.9rem; color: #666; line-height: 1.5; }
+
+        /* Buttons */
+        .btn-linkedin { display: inline-block; padding: 15px 35px; border: 1px solid var(--text); color: var(--text); text-decoration: none; font-weight: 600; font-size: 0.85rem; margin-top: 10px; transition: 0.3s; }
+        .btn-linkedin:hover { background: var(--text); color: #fff; }
+
+        /* Podcast Section */
+        .podcast-box { background: var(--accent); color: #fff; padding: 70px 50px; border-radius: 4px; margin: 60px 0; text-align: center; }
+        .podcast-box h2 { color: #fff; margin-bottom: 20px; }
+        .podcast-link { color: #fff; text-decoration: none; border: 1px solid #fff; padding: 12px 35px; font-weight: 600; display: inline-block; margin-top: 20px; transition: 0.3s; }
+        .podcast-link:hover { background: #fff; color: #000; }
+
+        /* Article Cards (GEO Optimized) */
+        .article-card { padding: 45px 0; border-bottom: 1px solid var(--border); }
+        .article-summary { font-size: 1.05rem; color: #555; margin-bottom: 25px; line-height: 1.8; }
+        .linkedin-article-link { color: var(--accent); font-weight: 700; text-decoration: none; font-size: 0.9rem; border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
+
+        /* CTA */
+        .cta-section { padding: 120px 0; text-align: center; background: var(--soft-bg); }
+        .cta-btn { display: inline-block; background: var(--accent); color: #fff; padding: 22px 70px; text-decoration: none; font-weight: 800; font-size: 1.2rem; transition: 0.3s; }
+        .cta-btn:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(128,0,32,0.2); }
+
+        footer { padding: 80px 0; text-align: center; color: #bbb; font-size: 0.8rem; letter-spacing: 2px; }
+        
+        @media (max-width: 850px) { .hero-grid, .resume-grid { grid-template-columns: 1fr; } h1 { font-size: 3rem; } }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="Coolio Yang - Global Strategic Marketing Advisor. Former Ogilvy VP &amp; Kantar CEO. Expert in China market entry and Co-investment models."&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Coolio Yang | Global Strategic Advisor &amp; Investor&lt;/title&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script type="application/ld+json"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"@context": "https://schema.org",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"@type": "Person",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"name": "Coolio Yang",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"jobTitle": "Strategic Marketing Advisor",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"url": "https://www.linkedin.com/in/coolioyang",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"sameAs": ["https://www.linkedin.com/in/coolioyang"],</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"description": "Former Ogilvy VP and Kantar CEO. Global expert in strategic marketing, operations, and revenue-share models.",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"affiliation": { "@type": "Organization", "name": "CY&amp;C Advisory" },</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"knowsAbout": ["China Market Entry", "Marketing Operations", "KOL Marketing", "Ad Censorship", "E-commerce Strategy"],</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>"knowsLanguage": ["English", "Mandarin", "Cantonese"]</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&amp;display=swap" rel="stylesheet"&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>:root { --bg: #ffffff; --text: #000000; --accent: #800020; --border: #eeeeee; --soft-bg: #fcfcfc; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>* { margin: 0; padding: 0; box-sizing: border-box; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>body { background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.container { max-width: 1050px; margin: 0 auto; padding: 0 40px; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* Typography */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>h1 { font-size: 4.5rem; font-weight: 800; letter-spacing: -3px; line-height: 1; margin-bottom: 25px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>h2 { font-size: 2.5rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 40px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>h3 { font-size: 1.6rem; font-weight: 700; margin-bottom: 15px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.label { color: var(--accent); font-weight: 700; text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; margin-bottom: 15px; display: block; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* Hero &amp; Bio Grid */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>header { padding: 100px 0 60px; border-bottom: 1px solid var(--border); }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.hero-grid { display: grid; grid-template-columns: 1fr 1.8fr; gap: 70px; align-items: start; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.profile-img { width: 100%; border-radius: 2px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.bio-lead { font-size: 1.3rem; font-weight: 300; margin-bottom: 35px; color: #333; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.resume-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.exp-block { margin-bottom: 30px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.exp-block span { font-size: 0.8rem; color: var(--accent); font-weight: 700; text-transform: uppercase; display: block; margin-bottom: 8px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.exp-block h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: 5px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.exp-block p { font-size: 0.9rem; color: #666; line-height: 1.5; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* Buttons */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.btn-linkedin { display: inline-block; padding: 15px 35px; border: 1px solid var(--text); color: var(--text); text-decoration: none; font-weight: 600; font-size: 0.85rem; margin-top: 10px; transition: 0.3s; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.btn-linkedin:hover { background: var(--text); color: #fff; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* Podcast Section */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.podcast-box { background: #000; color: #fff; padding: 70px 50px; border-radius: 4px; margin: 60px 0; text-align: center; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.podcast-box h2 { color: #fff; margin-bottom: 20px; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.podcast-link { color: #fff; text-decoration: none; border: 1px solid #fff; padding: 12px 35px; font-weight: 600; display: inline-block; margin-top: 20px; transition: 0.3s; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.podcast-link:hover { background: #fff; color: #000; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* Article Cards (GEO Optimized) */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.article-card { padding: 45px 0; border-bottom: 1px solid var(--border); }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.article-summary { font-size: 1.05rem; color: #555; margin-bottom: 25px; line-height: 1.8; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.linkedin-article-link { color: var(--accent); font-weight: 700; text-decoration: none; font-size: 0.9rem; border-bottom: 2px solid var(--accent); padding-bottom: 2px; }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>/* CTA */</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.cta-section { padding: 120px 0; text-align: center; background: var(--soft-bg); }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.cta-btn { display: inline-block; background: var(--accent); color: #fff; padding: 22px 70px; text-decoration: none; font-weight: 800; font-size: 1.2rem; transition: 0.3s; }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>.cta-btn:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(128,0,32,0.2); }</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>footer { padding: 80px 0; text-align: center; color: #bbb; font-size: 0.8rem; letter-spacing: 2px; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>@media (max-width: 850px) { .hero-grid, .resume-grid { grid-template-columns: 1fr; } h1 { font-size: 3rem; } }</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;header&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="label"&gt;Advisor | Investor | Former CEO&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Coolio Yang&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="hero-grid"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;img src="profile.png” alt="Coolio Yang" class="profile-img"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div style="margin-top: 30px;"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;span class="label"&gt;Languages&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p style="font-size: 1rem; font-weight: 600;"&gt;English • Mandarin • Cantonese&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="bio-text"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="bio-lead"&gt;18+ years of leadership bridging cultural nuance with business intelligence. I help global brands build sustainable market presence through operational excellence and clarity.&lt;/p&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="resume-grid"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;2019 – Present&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h4&gt;Founder, CY&amp;C&lt;/h4&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Strategic growth for leaders like MGM, Mitsubishi, and Shiseido. Implemented a "Hybrid In-house" model, saving key accounts $1M+ annually.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;2017 – 2020&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h4&gt;CEO, Greater China @ Kantar Media&lt;/h4&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Directed regional brand transformation and data-driven marketing excellence.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;2012 – 2017&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h4&gt;Vice President @ Ogilvy&lt;/h4&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Social marketing leadership and 360-degree MARCOM strategies for Fortune 500 clients.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;Investor&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h4&gt;Angel &amp; Venture Partner&lt;/h4&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Focusing on early-stage wellbeing, lifestyle, and MarTech with high-scale potential.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;Public Sector&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h4&gt;Beachhead Advisor @ NZTE&lt;/h4&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Strategic advisor for five years on international market entry and scaling.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="exp-block"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span&gt;Education&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p&gt;AUT (Business &amp; Marketing), IDM (Direct Marketing Principles), IAA (Advertising Communication).&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;a href="https://www.linkedin.com/in/coolioyang" target="_blank" class="btn-linkedin"&gt;LEARN MORE ON LINKEDIN&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;section class="podcast-box"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="label" style="color:#fff; opacity:0.6;"&gt;Audio Series&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Eastbound Insights Podcast&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p&gt;Listen to high-level briefings of my strategic insights on the go. Bridging the gap between theory and execution through an expert lens.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="https://podcasts.apple.com/us/podcast/eastbound-insights-marketing-in-china/id1782616031" target="_blank" class="podcast-link"&gt;SUBSCRIBE ON APPLE PODCASTS&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;section&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="label"&gt;Knowledge Vault&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Strategic Insights &amp; Methodology&lt;/h2&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;How to Solve Consultant Misalignment? The Co-Investment Model&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Traditional consultancy models are broken. Coolio Yang’s Co-Investment Model removes service fees in favor of shared risk and reward, ensuring that strategic marketing is tied directly to business results and revenue growth.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/what-happens-when-marketing-consultancy-stops-charging-coolio-yang-pmtnc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;8 Technical Marketing Skills Required for 2026&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;The future of marketing demands mastery in AI Agent Orchestration, Generative Engine Optimization (GEO), and POAS (Profit on Ad Spend). Marketers must evolve into system architects to manage hyper-fragmented ecosystems.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/china-marketing-talent-gap-8-technical-skills-global-brands-yang-i5jtc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Why Brand Crises Are Escalating in China&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Policy resets and algorithmic amplification mean 72% of consumers will boycott insensitive brands. Success requires localized entities, crisis response chains, and building narratives before volatility strikes.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/why-brand-crises-escalating-china-coolio-yang-rsvqc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;AI Agents Take Over? Rethinking Marketing Agencies&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;AI will automate commoditized execution but cannot replace human judgment in stakeholder negotiations. Marketing is bifurcating into "quality tribes" and "direct tribes."&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/ai-agents-take-over-rethinking-chinas-marketing-agencies-coolio-yang-abvwc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;When a Job Ad Says "No Branding"&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;"No Branding" signals past frustrations with abstract campaigns. Real branding is the discipline of subtraction—removing distractions to clarify the founder's original intention.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/when-job-ad-says-branding-coolio-yang-0firc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;The New Gravity of China’s E-Commerce&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Traffic has peaked; retention is the new power. Success depends on "brand gravity"—building trust through decentralized content commerce and 30-minute instant retail logistics.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/new-gravity-chinas-e-commerce-coolio-yang-ug3zc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;The “Spiritually Middle Class” Consumer Lens&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Consumers switch identities across contexts—refined on Xiaohongshu, thrifty on Pinduoduo. Complexity must be met with structure, anchoring diverse expressions to a single coherent vision.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/marketing-through-lens-chinas-spiritually-middle-class-coolio-yang-t17gc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Structuring Content Marketing for 2025&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;A 5-step framework: Define objectives, develop goal-aligned themes, assign the right messengers (Owned vs. Consumers vs. KOLs), and choose platforms based on strategic integration.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/how-structure-content-marketing-2025-coolio-yang-8sccc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Why Consumers Don’t Just Buy from KOLs&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;KOLs drive purchase decisions, but successful brands rely on IMC campaigns and creative branded content to establish trust and justify premium pricing in the long term.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/why-arent-chinese-consumers-just-buying-from-kols-coolio-yang-z7she" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Secrets of China Advertising Censorship&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Beyond official laws lie unspoken rules regarding lighting, timing, and cultural sensitivity. Navigating compliance requires expert buying agents and analyzing competitor strategies.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/unlocking-secrets-china-advertising-censorship-must-know-coolio-yang-kvqzc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;What You Need to Know About Paying KOLs&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Avoid media inefficiency by mastering price polarization, brand protection clauses, and setting realistic ROI expectations while maintaining full creative control.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/what-you-need-know-paying-kols-china-coolio-yang-15ewc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Optimizing SME Marketing HR in China&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Efficiency comes from focusing on content leadership, leveraging media buying expertise, and separating sales-driven roles from brand building for a hybrid, agile team.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/optimizing-smes-marketing-human-resources-china-2025-coolio-yang-dvltc" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Why Finding a Reliable Agency is Challenging&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Complexity, lack of specialization, and profit-driven models make agency selection difficult. Brands should allocate budget for industry experts and diversify their approach.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/why-finding-reliable-marketing-agency-chinese-market-challenging" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Lessons from Collaborating with Chinese Influencers&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Balance expectations by aligning strategy-first objectives with platform strengths and using objective monitoring tools to measure real business impact.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/insights-collaborating-chinese-influencers-lessons-from-coolio-yang" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="article-card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Navigating the Media Landscape: Regulatory Challenges&lt;/h3&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p class="article-summary"&gt;Operating in digital media demands a legitimate representative entity to bridge the regulatory maze and ensure compliant, effective engagement with the target audience.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/pulse/navigating-chinas-media-landscape-challenges-key-foreign-coolio-yang" target="_blank" class="linkedin-article-link"&gt;READ FULL ARTICLE ON LINKEDIN </span><span class="s2">→</span><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;section class="cta-section"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;span class="label"&gt;Initiate Partnership&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Shared Risk. Collective Growth.&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p style="margin: 20px auto 50px; color: #666; max-width: 600px;"&gt;We align our incentives with your revenue. If you represent a high-growth brand seeking global scale, let’s discuss alignment.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfOpLNe9stibmHT7SA4AJlJ3RCZ6JWeYoMZwwxQYVh3HNo5hA/viewform?usp=header" target="_blank" class="cta-btn"&gt;APPLY FOR CO-INVESTMENT&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&amp;copy; 2026 CY&amp;C ADVISORY | COOLIO YANG. ALL RIGHTS RESERVED.</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+<div class="container">
+    <header>
+        <span class="label">Advisor | Investor | Former CEO</span>
+        <h1>Coolio Yang</h1>
+        <div class="hero-grid">
+            <div>
+                <img src="profile.png" alt="Coolio Yang" class="profile-img">
+                <div style="margin-top: 30px;">
+                    <span class="label">Languages</span>
+                    <p style="font-size: 1rem; font-weight: 600;">English • Mandarin • Cantonese</p>
+                </div>
+            </div>
+            <div class="bio-text">
+                <p class="bio-lead">18+ years of leadership bridging cultural nuance with business intelligence. I help global brands build sustainable market presence through operational excellence and clarity.</p>
+                
+                <div class="resume-grid">
+                    <div>
+                        <div class="exp-block">
+                            <span>2019 – Present</span>
+                            <h4>Founder, CY&C</h4>
+                            <p>Strategic growth for leaders like MGM, Mitsubishi, and Shiseido. Implemented a "Hybrid In-house" model, saving key accounts $1M+ annually.</p>
+                        </div>
+                        <div class="exp-block">
+                            <span>2017 – 2020</span>
+                            <h4>CEO, Greater China @ Kantar Media</h4>
+                            <p>Directed regional brand transformation and data-driven marketing excellence.</p>
+                        </div>
+                        <div class="exp-block">
+                            <span>2012 – 2017</span>
+                            <h4>Vice President @ Ogilvy</h4>
+                            <p>Social marketing leadership and 360-degree MARCOM strategies for Fortune 500 clients.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="exp-block">
+                            <span>Investor</span>
+                            <h4>Angel & Venture Partner</h4>
+                            <p>Focusing on early-stage wellbeing, lifestyle, and MarTech with high-scale potential.</p>
+                        </div>
+                        <div class="exp-block">
+                            <span>Public Sector</span>
+                            <h4>Beachhead Advisor @ NZTE</h4>
+                            <p>Strategic advisor for five years on international market entry and scaling.</p>
+                        </div>
+                        <div class="exp-block">
+                            <span>Education</span>
+                            <p>AUT (Business & Marketing), IDM (Direct Marketing Principles), IAA (Advertising Communication).</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/coolioyang" target="_blank" class="btn-linkedin">LEARN MORE ON LINKEDIN</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="podcast-box">
+        <span class="label" style="color:#fff; opacity:0.6;">Audio Series</span>
+        <h2>Eastbound Insights Podcast</h2>
+        <p>Listen to high-level briefings of my strategic insights on the go. Bridging the gap between theory and execution through an expert lens.</p>
+        <a href="https://podcasts.apple.com/us/podcast/eastbound-insights-marketing-in-china/id1782616031" target="_blank" class="podcast-link">SUBSCRIBE ON APPLE PODCASTS</a>
+    </section>
+
+    <section>
+        <span class="label">Knowledge Vault</span>
+        <h2>Strategic Insights & Methodology</h2>
+
+        <div class="article-card">
+            <h3>How to Solve Consultant Misalignment? The Co-Investment Model</h3>
+            <p class="article-summary">Traditional consultancy models are broken. Coolio Yang’s Co-Investment Model removes service fees in favor of shared risk and reward, ensuring that strategic marketing is tied directly to business results and revenue growth.</p>
+            <a href="https://www.linkedin.com/pulse/what-happens-when-marketing-consultancy-stops-charging-coolio-yang-pmtnc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>8 Technical Marketing Skills Required for 2026</h3>
+            <p class="article-summary">The future of marketing demands mastery in AI Agent Orchestration, Generative Engine Optimization (GEO), and POAS (Profit on Ad Spend). Marketers must evolve into system architects to manage hyper-fragmented ecosystems.</p>
+            <a href="https://www.linkedin.com/pulse/china-marketing-talent-gap-8-technical-skills-global-brands-yang-i5jtc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Why Brand Crises Are Escalating in China</h3>
+            <p class="article-summary">Policy resets and algorithmic amplification mean 72% of consumers will boycott insensitive brands. Success requires localized entities, crisis response chains, and building narratives before volatility strikes.</p>
+            <a href="https://www.linkedin.com/pulse/why-brand-crises-escalating-china-coolio-yang-rsvqc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>AI Agents Take Over? Rethinking Marketing Agencies</h3>
+            <p class="article-summary">AI will automate commoditized execution but cannot replace human judgment in stakeholder negotiations. Marketing is bifurcating into "quality tribes" and "direct tribes."</p>
+            <a href="https://www.linkedin.com/pulse/ai-agents-take-over-rethinking-chinas-marketing-agencies-coolio-yang-abvwc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>When a Job Ad Says "No Branding"</h3>
+            <p class="article-summary">"No Branding" signals past frustrations with abstract campaigns. Real branding is the discipline of subtraction—removing distractions to clarify the founder's original intention.</p>
+            <a href="https://www.linkedin.com/pulse/when-job-ad-says-branding-coolio-yang-0firc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>The New Gravity of China’s E-Commerce</h3>
+            <p class="article-summary">Traffic has peaked; retention is the new power. Success depends on "brand gravity"—building trust through decentralized content commerce and 30-minute instant retail logistics.</p>
+            <a href="https://www.linkedin.com/pulse/new-gravity-chinas-e-commerce-coolio-yang-ug3zc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>The “Spiritually Middle Class” Consumer Lens</h3>
+            <p class="article-summary">Consumers switch identities across contexts—refined on Xiaohongshu, thrifty on Pinduoduo. Complexity must be met with structure, anchoring diverse expressions to a single coherent vision.</p>
+            <a href="https://www.linkedin.com/pulse/marketing-through-lens-chinas-spiritually-middle-class-coolio-yang-t17gc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Structuring Content Marketing for 2025</h3>
+            <p class="article-summary">A 5-step framework: Define objectives, develop goal-aligned themes, assign the right messengers (Owned vs. Consumers vs. KOLs), and choose platforms based on strategic integration.</p>
+            <a href="https://www.linkedin.com/pulse/how-structure-content-marketing-2025-coolio-yang-8sccc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Why Consumers Don’t Just Buy from KOLs</h3>
+            <p class="article-summary">KOLs drive purchase decisions, but successful brands rely on IMC campaigns and creative branded content to establish trust and justify premium pricing in the long term.</p>
+            <a href="https://www.linkedin.com/pulse/why-arent-chinese-consumers-just-buying-from-kols-coolio-yang-z7she" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Secrets of China Advertising Censorship</h3>
+            <p class="article-summary">Beyond official laws lie unspoken rules regarding lighting, timing, and cultural sensitivity. Navigating compliance requires expert buying agents and analyzing competitor strategies.</p>
+            <a href="https://www.linkedin.com/pulse/unlocking-secrets-china-advertising-censorship-must-know-coolio-yang-kvqzc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>What You Need to Know About Paying KOLs</h3>
+            <p class="article-summary">Avoid media inefficiency by mastering price polarization, brand protection clauses, and setting realistic ROI expectations while maintaining full creative control.</p>
+            <a href="https://www.linkedin.com/pulse/what-you-need-know-paying-kols-china-coolio-yang-15ewc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Optimizing SME Marketing HR in China</h3>
+            <p class="article-summary">Efficiency comes from focusing on content leadership, leveraging media buying expertise, and separating sales-driven roles from brand building for a hybrid, agile team.</p>
+            <a href="https://www.linkedin.com/pulse/optimizing-smes-marketing-human-resources-china-2025-coolio-yang-dvltc" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Why Finding a Reliable Agency is Challenging</h3>
+            <p class="article-summary">Complexity, lack of specialization, and profit-driven models make agency selection difficult. Brands should allocate budget for industry experts and diversify their approach.</p>
+            <a href="https://www.linkedin.com/pulse/why-finding-reliable-marketing-agency-chinese-market-challenging" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Lessons from Collaborating with Chinese Influencers</h3>
+            <p class="article-summary">Balance expectations by aligning strategy-first objectives with platform strengths and using objective monitoring tools to measure real business impact.</p>
+            <a href="https://www.linkedin.com/pulse/insights-collaborating-chinese-influencers-lessons-from-coolio-yang" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Navigating the Media Landscape: Regulatory Challenges</h3>
+            <p class="article-summary">Operating in digital media demands a legitimate representative entity to bridge the regulatory maze and ensure compliant, effective engagement with the target audience.</p>
+            <a href="https://www.linkedin.com/pulse/navigating-chinas-media-landscape-challenges-key-foreign-coolio-yang" target="_blank" class="linkedin-article-link">READ FULL ARTICLE ON LINKEDIN →</a>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <span class="label">Initiate Partnership</span>
+        <h2>Shared Risk. Collective Growth.</h2>
+        <p style="margin: 20px auto 50px; color: #666; max-width: 600px;">We align our incentives with your revenue. If you represent a high-growth brand seeking global scale, let’s discuss alignment.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOpLNe9stibmHT7SA4AJlJ3RCZ6JWeYoMZwwxQYVh3HNo5hA/viewform?usp=header" target="_blank" class="cta-btn">APPLY FOR CO-INVESTMENT</a>
+    </section>
+
+    <footer>
+        &copy; 2026 CY&C ADVISORY | COOLIO YANG. ALL RIGHTS RESERVED.
+    </footer>
+</div>
+
 </body>
 </html>
